@@ -22,6 +22,6 @@ def validate_and_execute():
 
 user_input = ""
 while user_input != "exit":
-    user_input = input("Input a number\n")
-    for numb_of_days_element in user_input.split( ):
+    user_input = input("Enter number of day as comma separated list and I will convert it to hurs\n")
+    for numb_of_days_element in user_input.split(","):
         validate_and_execute()
