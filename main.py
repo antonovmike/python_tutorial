@@ -25,5 +25,5 @@ while user_input != "exit":
     user_input = input("Enter number of day as comma separated list and I will convert it to hurs\n")
     print(type(user_input.split(",")))
     print(user_input.split(","))
-    for numb_of_days_element in user_input.split(","):
+    for numb_of_days_element in set(user_input.split(",")):
         validate_and_execute()
