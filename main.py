@@ -23,7 +23,10 @@ def validate_and_execute():
 user_input = ""
 while user_input != "exit":
     user_input = input("Enter number of day as comma separated list and I will convert it to hurs\n")
-    print(type(user_input.split(",")))
-    print(user_input.split(","))
-    for numb_of_days_element in set(user_input.split(",")):
+    list_of_days = user_input.split(",")
+    print("User input", list_of_days)
+    print("Set", set(list_of_days))
+    print("Type", type(list_of_days))
+    print("Type Set", type(set(list_of_days)))
+    for numb_of_days_element in set(list_of_days):
         validate_and_execute()
