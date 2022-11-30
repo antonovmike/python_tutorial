@@ -1,5 +1,5 @@
 import openpyxl
-
+# pip install openpyxl
 inv_file = openpyxl.load_workbook("inventory.xlsx")
 product_list = inv_file["Sheet1"]
 
