@@ -22,10 +22,8 @@ def validate_and_execute():
 
 user_input = ""
 while user_input != "exit":
-    user_input = input("Enter number of day as comma separated list and I will convert it to hurs\n")
-    list_of_days = user_input.split(",")
-    for numb_of_days_element in set(list_of_days):
-        validate_and_execute()
-
-
-
+    user_input = input("Enter number of day and conversion unit\n")
+    days_and_unit = user_input.split(":")
+    print(days_and_unit)
+    days_and_unit_dictionary = {"days": days_and_unit[0], "unit": days_and_unit[1]}
+    print(days_and_unit_dictionary)
