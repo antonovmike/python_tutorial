@@ -1,12 +1,7 @@
-class User:
-    def __init__(self, email, name, password, current_job_title):
-        self.email
-        self.name
-        self.password
-        self.current_job_title
-
-    def change_password():
-        # do smth
-    
-    def change_job_title():
-        # do smth
+class Post:
+    def __init__(self, message, author):
+        self.message = message
+        self.author = author
+        
+    def get_post_info(self):
+        print(f"Post: {self.message} written by {self.author}")
