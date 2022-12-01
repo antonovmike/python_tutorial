@@ -30,10 +30,18 @@ alice.display_info()
 
 
 class Employee(Person):
+    def __init__(self, name, company):
+        super().__init__(name)
+        self.company = company
+
+    def display_info(self):
+        super().display_info()
+        print(f"Company: {self.company}")
+
     def work(self):
         print(f"{self.get_name} works")
 
-wesker = Employee("Alex Wesker")
+wesker = Employee("Alex Wesker", "Umbrella")
 print(wesker.get_name)
 wesker.display_info()
 wesker.work()
