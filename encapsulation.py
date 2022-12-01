@@ -22,6 +22,9 @@ class Person:
     def display_info(self):
         print(f"Name: {self.__name}\tAge: {self.__age}")
 
+    def do_nothing(self):
+        print(f"{self.__name} does nothing")
+
 alice = Person("Alice")
 alice.name = "Zombie hunter"
 alice.age = 30
@@ -45,3 +48,13 @@ wesker = Employee("Alex Wesker", "Umbrella")
 print(wesker.get_name)
 wesker.display_info()
 wesker.work()
+
+
+def act(person):
+    if isinstance(person, Employee):
+        person.work()
+    elif isinstance(person, Person):
+        person.do_nothing()
+
+act(alice)
+# act(wesker)
