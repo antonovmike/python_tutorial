@@ -1,4 +1,6 @@
 class Person:
+    type = "Person"
+    description = "Describes a person"
     def __init__(self, name):
         self.__name = name
         self.__age = 1
@@ -57,4 +59,9 @@ def act(person):
         person.do_nothing()
 
 act(alice)
-# act(wesker)
+act(wesker)
+
+
+print(Person.description)
+Person.type = "Class Person"
+print(Person.type)
