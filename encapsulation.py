@@ -27,3 +27,13 @@ alice.name = "Zombie hunter"
 alice.age = 30
 alice.display_info()
 
+
+
+class Employee(Person):
+    def work(self):
+        print(f"{self.get_name} works")
+
+wesker = Employee("Alex Wesker")
+print(wesker.get_name)
+wesker.display_info()
+wesker.work()
