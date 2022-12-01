@@ -21,11 +21,15 @@ class Person:
     def get_name(self):
         return self.__name
 
-    def display_info(self):
-        print(f"Name: {self.__name}\tAge: {self.__age}")
-
     def do_nothing(self):
         print(f"{self.__name} does nothing")
+# Two ways of displaing info:
+    def display_info(self):
+        print(f"Name: {self.__name}\tAge: {self.__age}")
+# 1) wesker.display_info()
+    def __str__(self):
+        return f"Name: {self.name}  Age: {self.age}"
+# 2) print(alice)
 
 alice = Person("Alice")
 alice.name = "Zombie hunter"
