@@ -4,22 +4,26 @@ class Person:
         self.__age = 1
 # self.age - an atribute
 # self.__age - a private atribute
-    def set_age(self, age):
+    @property
+    def age(self):
+        return self.__age
+        
+    @age.setter
+    def age(self, age):
         if 1 < age < 120:
             self.__age = age
         else:
             print("Invalid age")
 
-    def get_age(self):
-        return self.__age
-
+    @property
     def get_name(self):
         return self.__name
 
     def display_info(self):
-        print(f"Name: {self.name}\tAge: {self.age}")
+        print(f"Name: {self.__name}\tAge: {self.__age}")
 
 alice = Person("Alice")
 alice.name = "Zombie hunter"
 alice.age = 30
 alice.display_info()
+
