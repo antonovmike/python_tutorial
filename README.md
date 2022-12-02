@@ -7,7 +7,7 @@ https://youtu.be/t8pPdKYpowI
 
 - [Lists](https://github.com/antonovmike/python_tutorial/blob/main/lists.py)
 
-- [Tuples]()
+- [Tuples](https://github.com/antonovmike/python_tutorial/blob/main/tuples.py)
 
 - [Dictionaries](https://github.com/antonovmike/python_tutorial/blob/main/dictionary.py)
 
