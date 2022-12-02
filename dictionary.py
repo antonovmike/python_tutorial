@@ -67,3 +67,15 @@ users_tuple = (
 )
 users_dict = dict(users_tuple)
 print(users_dict)
+
+
+users = {
+    "alisher": {
+        "phone": "+111111111",
+        "full name": "Alisher Navoiy"
+    },
+    "bayoniy": {
+        "phone": "+222222222",
+        "full name": "Muhammad Yusuf Bayoniy"
+    }
+}
