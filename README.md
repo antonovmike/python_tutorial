@@ -3,11 +3,13 @@ https://youtu.be/t8pPdKYpowI
 
 - [API request to gitlab](https://github.com/antonovmike/python_tutorial/blob/main/api_request_to_gitlab.py)
 
-- [Dictionaries](https://github.com/antonovmike/python_tutorial/blob/main/dictionary.py)
-
 - [Encapsulation](https://github.com/antonovmike/python_tutorial/blob/main/encapsulation.py)
 
 - [Lists](https://github.com/antonovmike/python_tutorial/blob/main/lists.py)
+
+- [Tuples]()
+
+- [Dictionaries](https://github.com/antonovmike/python_tutorial/blob/main/dictionary.py)
 
 - [Sets](https://github.com/antonovmike/python_tutorial/blob/main/sets.py)
 
