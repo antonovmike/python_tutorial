@@ -4,7 +4,7 @@ class Person:
         self.__age = age
 
     def display_info(self):
-        print(f"Имя: {self.__name}  Возраст: {self.__age}")
+        print(f"Name: {self.__name}  Age: {self.__age}")
 
 class PersonAgeException(Exception):
     def __init__(self, age, minage, maxage):
@@ -13,8 +13,8 @@ class PersonAgeException(Exception):
         self.maxage = maxage
 
     def __str__(self):
-        return f"Недопустимое значение: {self.age}. " \
-               f"Возраст должен быть в диапазоне от {self.minage} до {self.maxage}"
+        return f"Invalid value: {self.age}. " \
+               f"Age must be between {self.minage} and {self.maxage}"
 
 
 class Person:
@@ -27,7 +27,7 @@ class Person:
             raise PersonAgeException(age, minage, maxage)
 
     def display_info(self):
-        print(f"Имя: {self.__name}  Возраст: {self.__age}")
+        print(f"Name: {self.__name}  Age: {self.__age}")
 
 try:
     tom = Person("Tom", 37)

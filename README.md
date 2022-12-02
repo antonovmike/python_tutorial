@@ -21,5 +21,6 @@ https://youtu.be/t8pPdKYpowI
 
 - [Exceptions. Error handler](https://github.com/antonovmike/python_tutorial/blob/main/errors_handler.py)
 
-- [Custom exceptions]()
+- [Custom exceptions](https://github.com/antonovmike/python_tutorial/blob/main/errors_custom_exceptions.py)
+
 
