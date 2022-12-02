@@ -3,13 +3,14 @@ try:
     number2 = int(input("Enter a number: "))
     print(number1, "/", number2, "=", number1/number2)
 
-except ValueError:
-    print("Conversion failed")
+except ValueError as e:
+    print("(Value Error) Invalid number:", e)
 
 except ZeroDivisionError:
-    print("Attempt to divide a number by zero")
+    print("(Zero Division Error) Attempt to divide a number by zero")
+
 except BaseException:
-    print("General exception")
+    print("(Base Exception) General exception")
 
 finally:
     print("Unit try has completed the execution")
