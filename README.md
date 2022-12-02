@@ -9,7 +9,7 @@ https://youtu.be/t8pPdKYpowI
 
 - [Tuples](https://github.com/antonovmike/python_tutorial/blob/main/tuples.py)
 
-- [Range]()
+- [Range](https://github.com/antonovmike/python_tutorial/blob/main/range.py)
 
 - [Dictionaries](https://github.com/antonovmike/python_tutorial/blob/main/dictionary.py)
 
