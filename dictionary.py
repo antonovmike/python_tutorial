@@ -21,6 +21,9 @@ if key in uzbekistani_writers:
 else:
     print("Writer not found")
 
+# Copy
+uzbekistani_writers_1 = uzbekistani_writers.copy()
+
 # Remove writer
 if key in uzbekistani_writers:
     del uzbekistani_writers["+444444444"]
@@ -28,11 +31,25 @@ if key in uzbekistani_writers:
 else:
     print("Writer not found")
 
-removed_writer_2 = uzbekistani_writers.pop("+333333333")
-removed_writer_1 = uzbekistani_writers.pop("+222222222", "Unknown Writer")
+removed_writer_2 = uzbekistani_writers_1.pop("+333333333")
+removed_writer_1 = uzbekistani_writers_1.pop("+222222222", "Unknown Writer")
+
+# Combine
+uzbekistani_writers_1.update(uzbekistani_writers)
+
+# Iterate
+print(uzbekistani_writers_1)
+for key in uzbekistani_writers_1:
+    print(f"Id: {key} Writer: {uzbekistani_writers_1[key]}")
+
+print(uzbekistani_writers)
+for key, value in uzbekistani_writers.items():
+    print(f"Id: {key} Writer: {value}")
+    
 
 # Remove all elements
 uzbekistani_writers.clear()
+
 
 users_list = [
     ["+111111111", "Alisher Navoiy"],

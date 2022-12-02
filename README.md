@@ -13,7 +13,7 @@ https://youtu.be/t8pPdKYpowI
 
 - [Dictionaries 1](https://github.com/antonovmike/python_tutorial/blob/main/dictionary.py)
 
-- [Dictionaries 2]()
+- [Dictionaries 2](https://github.com/antonovmike/python_tutorial/blob/main/dictionary_converter.py)
 
 - [Sets](https://github.com/antonovmike/python_tutorial/blob/main/sets.py)
 
