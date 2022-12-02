@@ -9,6 +9,8 @@ https://youtu.be/t8pPdKYpowI
 
 - [Tuples](https://github.com/antonovmike/python_tutorial/blob/main/tuples.py)
 
+- [Range]()
+
 - [Dictionaries](https://github.com/antonovmike/python_tutorial/blob/main/dictionary.py)
 
 - [Sets](https://github.com/antonovmike/python_tutorial/blob/main/sets.py)
