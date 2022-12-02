@@ -19,6 +19,7 @@ https://youtu.be/t8pPdKYpowI
 
 - [Working with XLSX files](https://github.com/antonovmike/python_tutorial/blob/main/inventory/main.py)
 
-- [Error handler](https://github.com/antonovmike/python_tutorial/blob/main/errors_handler.py)
+- [Exceptions. Error handler](https://github.com/antonovmike/python_tutorial/blob/main/errors_handler.py)
 
+- [Custom exceptions]()
 
