@@ -11,7 +11,9 @@ https://youtu.be/t8pPdKYpowI
 
 - [Range](https://github.com/antonovmike/python_tutorial/blob/main/range.py)
 
-- [Dictionaries](https://github.com/antonovmike/python_tutorial/blob/main/dictionary.py)
+- [Dictionaries 1](https://github.com/antonovmike/python_tutorial/blob/main/dictionary.py)
+
+- [Dictionaries 2]()
 
 - [Sets](https://github.com/antonovmike/python_tutorial/blob/main/sets.py)
 
