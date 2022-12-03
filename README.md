@@ -29,4 +29,10 @@ https://youtu.be/t8pPdKYpowI
 
 - [Custom exceptions](https://github.com/antonovmike/python_tutorial/blob/main/errors_custom_exceptions.py)
 
+- Operations with files:
+
+- [Open and close fil](https://github.com/antonovmike/python_tutorial/blob/main/support_files/open_and_close.py)
+
+- [Write and read](https://github.com/antonovmike/python_tutorial/blob/main/support_files/write_to_file.py)
+
 
