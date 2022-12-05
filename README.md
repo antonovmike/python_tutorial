@@ -49,7 +49,7 @@ https://youtu.be/t8pPdKYpowI
 
 - Date and time:
 
-- [Module datetime]
+- [Module datetime](https://github.com/antonovmike/python_tutorial/blob/main/datetime_module.py)
 
-- [Operations with dates]
+- [Operations with dates](https://github.com/antonovmike/python_tutorial/blob/main/datetime_operations.py)
 
