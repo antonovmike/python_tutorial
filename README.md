@@ -35,4 +35,6 @@ https://youtu.be/t8pPdKYpowI
 
 - [Write and read](https://github.com/antonovmike/python_tutorial/blob/main/support_files/write_to_file.py)
 
+- [Using CSV](https://github.com/antonovmike/python_tutorial/blob/main/support_files/using_csv.py)
+
 
