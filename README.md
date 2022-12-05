@@ -39,6 +39,12 @@ https://youtu.be/t8pPdKYpowI
 
 - [Binary files](https://github.com/antonovmike/python_tutorial/blob/main/support_files/binary_files.py)
 
-- [Shelve module]
+- [Shelve module](https://github.com/antonovmike/python_tutorial/blob/main/support_files/shelve_module.py)
 
-- [OS file system]
+- [OS file system](https://github.com/antonovmike/python_tutorial/blob/main/support_files/os_file_system.py)
+
+- [Word counting application]
+
+- [Read and write zip files]
+
+- 
