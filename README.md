@@ -47,4 +47,9 @@ https://youtu.be/t8pPdKYpowI
 
 - [Read and write zip files](https://github.com/antonovmike/python_tutorial/blob/main/support_files/zip_files.py)
 
-- 
+- Date and time:
+
+- [Module datetime]
+
+- [Operations with dates]
+
