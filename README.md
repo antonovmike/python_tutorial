@@ -37,4 +37,6 @@ https://youtu.be/t8pPdKYpowI
 
 - [Using CSV](https://github.com/antonovmike/python_tutorial/blob/main/support_files/using_csv.py)
 
-- [Binary files]
+- [Binary files](https://github.com/antonovmike/python_tutorial/blob/main/support_files/binary_files.py)
+
+- 
