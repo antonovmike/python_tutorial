@@ -43,8 +43,8 @@ https://youtu.be/t8pPdKYpowI
 
 - [OS file system](https://github.com/antonovmike/python_tutorial/blob/main/support_files/os_file_system.py)
 
-- [Word counting application]
+- [Word counting application](https://github.com/antonovmike/python_tutorial/blob/main/support_files/word_counting_app.py)
 
-- [Read and write zip files]
+- [Read and write zip files](https://github.com/antonovmike/python_tutorial/blob/main/support_files/zip_files.py)
 
 - 
